@@ -1,0 +1,17 @@
+{
+  "name": "plugin-options-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "joi": "^17.2.1",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "start": "node index.js && prettier --write plugin-options.md"
+  }
+}
